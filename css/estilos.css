@@ -17,7 +17,7 @@ section, h4, section p{
     background-color: rgb(141, 104, 175);
     color: white;
 }
-footer, footer p {
+footer, footer p  {
     background-color: rgb(141, 104, 175);
     color: white;
     text-shadow: 4px 4px 5px black;
@@ -27,6 +27,9 @@ footer, footer p {
    
     background-size: 2200px;
         
+}
+li {
+    list-style-type: none;
 }
 
 a {
@@ -76,6 +79,25 @@ h3{
 
 .imag{
     display: flex;
+}
+
+.whats{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 65px;
+    background-color: rgba(18, 124, 6, 0.856);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px black;
+    z-index: 1000;
+
+}
+.fa-whatsapp {
+    margin-top: 15px;
 }
 
 
